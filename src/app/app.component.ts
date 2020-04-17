@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'forms-assignment';
+ subscriptions = ['Basic', 'Advanced', 'Pro']
+ selectedSubscription = 'Advanced'
 }
